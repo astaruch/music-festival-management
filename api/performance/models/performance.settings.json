@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "performances",
+  "info": {
+    "name": "performance"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "start": {
+      "type": "datetime"
+    },
+    "end": {
+      "type": "datetime"
+    },
+    "artist": {
+      "model": "artist"
+    },
+    "stage": {
+      "model": "stage"
+    }
+  }
+}

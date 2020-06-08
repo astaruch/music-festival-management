@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_custom_links",
+  "info": {
+    "name": "links",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "website": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    }
+  }
+}

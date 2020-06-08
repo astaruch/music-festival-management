@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_custom_descriptions",
+  "info": {
+    "name": "description",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "language": {
+      "type": "component",
+      "repeatable": false,
+      "component": "custom.language"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "locations",
+  "info": {
+    "name": "location"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "stage",
+        "food",
+        "drink",
+        "hygiene",
+        "merch",
+        "info",
+        "other",
+        "border",
+        "center",
+        "bound"
+      ]
+    },
+    "latitude": {
+      "type": "string"
+    },
+    "longitude": {
+      "type": "string"
+    },
+    "detail": {
+      "type": "component",
+      "repeatable": false,
+      "component": "custom.stage-or-name"
+    }
+  }
+}

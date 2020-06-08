@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_custom_stage_or_names",
+  "info": {
+    "name": "name-or-stage",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "stage": {
+      "model": "stage"
+    }
+  }
+}

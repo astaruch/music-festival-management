@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stages",
+  "info": {
+    "name": "stage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "location": {
+      "model": "location"
+    },
+    "pictures": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "custom.description"
+    }
+  }
+}

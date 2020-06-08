@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "messages",
+  "info": {
+    "name": "message"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "datetime": {
+      "type": "datetime"
+    },
+    "name": {
+      "type": "component",
+      "repeatable": true,
+      "component": "custom.description"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "custom.description"
+    }
+  }
+}

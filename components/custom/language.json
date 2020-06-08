@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_custom_languages",
+  "info": {
+    "name": "language",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "code": {
+      "type": "enumeration",
+      "enum": [
+        "en",
+        "sk"
+      ]
+    }
+  }
+}
