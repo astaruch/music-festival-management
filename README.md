@@ -1,3 +1,8 @@
-# Strapi application
+### General info
+* diploma thesis application for managing music festivals
+* built with Strapi https://strapi.io/
+* deployed to Heroku https://heroku.com/
+* images hosted at https://cloudinary.com/
 
-A quick description of your strapi application
+### Development
+`npx strapi dev`
