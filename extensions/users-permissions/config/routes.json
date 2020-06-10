@@ -1,0 +1,21 @@
+{
+  "routes": [{
+    "method": "PUT",
+    "path": "/users/me",
+    "handler": "User.updateMe",
+    "config": {
+      "policies": [],
+      "prefix": "",
+      "description": "Update the logged in user"
+    }
+  }, {
+    "method": "GET",
+    "path": "/users/me-deep",
+    "handler": "User.meDeep",
+    "config": {
+      "policies": [],
+      "prefix": "",
+      "description": "Retrieve the logged in user information with nested relation data included"
+    }
+  }]
+}
