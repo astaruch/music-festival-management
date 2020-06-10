@@ -6,3 +6,9 @@
 
 ### Development
 `npx strapi dev`
+
+### Usage
+```
+npm install
+npx strapi start
+```
