@@ -12,15 +12,10 @@
     "datetime": {
       "type": "datetime"
     },
-    "name": {
+    "detail": {
       "type": "component",
       "repeatable": true,
-      "component": "custom.description"
-    },
-    "description": {
-      "type": "component",
-      "repeatable": true,
-      "component": "custom.description"
+      "component": "custom.infoitem"
     }
   }
 }

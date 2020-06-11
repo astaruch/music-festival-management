@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_custom_infoitems",
+  "info": {
+    "name": "infoitem",
+    "icon": "info-circle"
+  },
+  "options": {},
+  "attributes": {
+    "language": {
+      "type": "component",
+      "repeatable": false,
+      "component": "custom.language"
+    },
+    "name": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

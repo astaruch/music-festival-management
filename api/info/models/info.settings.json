@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "infos",
+  "info": {
+    "name": "info"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "custom.infoitem"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "custom.description"
+    }
+  }
+}
