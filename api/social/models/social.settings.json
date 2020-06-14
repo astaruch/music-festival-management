@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "socials",
+  "info": {
+    "name": "social"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "facebook": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "spotify": {
+      "type": "string"
+    }
+  }
+}
